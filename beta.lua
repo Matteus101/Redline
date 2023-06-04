@@ -1,27 +1,3 @@
---[[
-
-            REDLINE
-             :**:             
-           :+*%%*+:           
-         :+=.+--+.=+:         
-       :+=. :#  #: .=+:       
-     :+=.   *-  -*   .=+:     
-   :+=     :#    #:     =+:   
-  -@*:::.  *:    :*  .:::*@-  
-   :*#=:-=+%--::--%+=-:=#*:   
-     :+=.  #-:--:-#  .=+:     
-       :+=.-+    +-.=+:       
-         :++%:  :%++:         
-           :*#..#*:           
-             :++:                
-]]--
-
-
-
--- WARNING: this is pretty much entirely shitcode
--- im currently working on a rewrite with 10x more features
--- join discord for updates https://discord.gg/TyKZFQtDvw
-
 if ( _G.RLLOADED and _G.RLNOTIF ) then
     _G.RLNOTIF('Oops', 'Redline is already loaded. Destroy the current instance by pressing [END]', 5, 'warn', true)
     return
